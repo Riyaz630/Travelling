@@ -162,5 +162,8 @@ li:hover
     {
         padding:10px;
     }
+    .header { 
+        flex-direction: column;}
 }
+
 
