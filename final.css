@@ -2,8 +2,9 @@ body{
     margin:0px;
 }
 .header{
-    height:50px;
+    height:70px;
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-weight: bold; 
 }
@@ -39,7 +40,7 @@ li:hover
     transform: scale(1.5);
 }
 .content{
-    height:500px;
+    height:300px;
     background-image: url('bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,7 +154,7 @@ li:hover
     font-style: italic;
     font-weight: bold;
 }
-@media  only screen and (max-width:770px)
+@media  only screen and (max-width:900px)
 {
     .card1,.card2,.card3{
         margin-top: 10px;
@@ -162,8 +163,25 @@ li:hover
     {
         padding:10px;
     }
-    .header { 
-        flex-direction: column;}
+    .header{
+        flex-direction: column;
+    }
+    .img4
+{
+ max-width: 80%;  
 }
+.content{
+    margin-left: 20px;
+}
+.about_us{
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.footer{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    justify-content: space-evenly;
 
-
+}
+}
